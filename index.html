@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jane Doe – Frontend Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="navbar">
+    <nav class="navbar container">
+      <div class="brand">
+        <img src="https://picsum.photos/40/40?random=1" alt="Logo" class="nav-logo" />
+        <span class="brand-name">D Amaranatha</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="hero-inner container">
+        <img src="https://ui-avatars.com/api/?name=D+Amaranatha&size=150" alt="Default profile" class="profile-img" />
+        <h1>D Amaranatha</h1>
+        <p class="tagline">Frontend Developer | Full Stack Web Developer</p>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-section container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>Hello! I'm D Amaranatha, a passionate frontend developer with a keen interest in creating beautiful and functional web experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I strive to build responsive and user-friendly applications.</p>
+        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities. I'm always eager to learn and take on new challenges in the ever-evolving world of web development.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 icon" class="skill-icon" />
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 icon" class="skill-icon" />
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript icon" class="skill-icon" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React icon" class="skill-icon" />
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap icon" class="skill-icon" />
+          <h3>Bootstrap</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git icon" class="skill-icon" />
+          <h3>Git</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience-section container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-entry">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2025 – Frontend Developer, Cognifyz Technologies</h3>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2026 – Full Stack Web Developer</h3>
+            <p>Future Intern, Saiket Systems</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services-section container">
+      <h2>My Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Creating responsive, modern websites using HTML, CSS, JavaScript, and frameworks like React.</p>
+          <ul class="service-features">
+            <li>Responsive Design</li>
+            <li>Performance Optimization</li>
+            <li>Cross-browser Compatibility</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and beautiful user interfaces with a focus on user experience.</p>
+          <ul class="service-features">
+            <li>User Research</li>
+            <li>Wireframing & Prototyping</li>
+            <li>Design Systems</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚀</div>
+          <h3>Full Stack Solutions</h3>
+          <p>End-to-end development from frontend to backend, including database design and API development.</p>
+          <ul class="service-features">
+            <li>Database Design</li>
+            <li>API Development</li>
+            <li>Deployment & Maintenance</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Mobile Development</h3>
+          <p>Building mobile-first applications and responsive web apps that work seamlessly across devices.</p>
+          <ul class="service-features">
+            <li>Mobile-First Design</li>
+            <li>Progressive Web Apps</li>
+            <li>Touch Interactions</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Code Review & Consulting</h3>
+          <p>Providing expert code reviews, technical consulting, and mentorship for development teams.</p>
+          <ul class="service-features">
+            <li>Code Quality Analysis</li>
+            <li>Best Practices</li>
+            <li>Performance Auditing</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📈</div>
+          <h3>SEO & Analytics</h3>
+          <p>Optimizing websites for search engines and implementing analytics to track performance.</p>
+          <ul class="service-features">
+            <li>SEO Optimization</li>
+            <li>Google Analytics</li>
+            <li>Performance Monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-section container">
+      <h2>What Clients Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial-slider">
+          <div class="testimonial-card active">
+            <div class="testimonial-content">
+              <p>"D Amaranatha delivered exceptional work on our e-commerce platform. The website is fast, responsive, and our conversion rates have improved significantly."</p>
+              <div class="testimonial-author">
+                <img src="https://picsum.photos/60/60?random=10" alt="Sarah Johnson" class="author-img">
+                <div class="author-info">
+                  <h4>Sarah Johnson</h4>
+                  <span>CEO, TechStart Inc.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Working with D Amaranatha was a pleasure. Their attention to detail and technical expertise helped us launch our startup website ahead of schedule."</p>
+              <div class="testimonial-author">
+                <img src="https://picsum.photos/60/60?random=11" alt="Mike Chen" class="author-img">
+                <div class="author-info">
+                  <h4>Mike Chen</h4>
+                  <span>Founder, InnovateLab</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"The mobile app D Amaranatha developed for us exceeded our expectations. Great communication throughout the project and outstanding results."</p>
+              <div class="testimonial-author">
+                <img src="https://picsum.photos/60/60?random=12" alt="Emily Rodriguez" class="author-img">
+                <div class="author-info">
+                  <h4>Emily Rodriguez</h4>
+                  <span>Product Manager, MobileFirst</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-dots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Work Together</h3>
+          <p>I'm always interested in new opportunities and exciting projects. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>amaranatha@example.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Your City, Country</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> D Amarnath. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
