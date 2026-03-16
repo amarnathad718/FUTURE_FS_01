@@ -1,35 +1,59 @@
-# Portfolio Website
+# Personal Portfolio Website
 
-This repository contains a modern, responsive personal portfolio built with **HTML, CSS, and JavaScript** only. It demonstrates key frontend skills and requires no build process.
+A responsive portfolio website built with pure HTML, CSS, and JavaScript (no frameworks, no build tools).
 
-## Features
+## Overview
 
-- Full-width hero section with profile image, tagline, and action buttons
-- Skills grid with animated progress bars
-- Vertical timeline for experience entries
-- Projects showcase with image, description, tags, and action buttons
-- Dark/light mode toggle saved in localStorage
-- Sticky navbar, smooth scrolling, and hover animations
-- Mobile-first responsive design using Flexbox and Grid
-- Professional color palette and Google Fonts
+This project is a single-page personal portfolio for **D Amaranatha / D Amarnath** with modern UI styling, theme toggle support, and smooth interactions.
 
-## Usage
+## Current Features
 
-Simply open `index.html` in your browser. To deploy, host the project files on any static hosting service (GitHub Pages, Netlify, Vercel, etc.).
+- Hero section with profile avatar and title
+- About section
+- Skills section (HTML, CSS, JavaScript, React, Bootstrap, Git)
+- Experience timeline
+- Services section (includes Prompt Engineering)
+- Testimonials slider with dot navigation
+- Contact section with client-side form validation
+- Light/Dark theme toggle (saved in `localStorage`)
+- Sticky navbar and smooth scrolling
+- Responsive layout for desktop/tablet/mobile
 
-## Assets
+## Project Structure
 
-Place your own:
+- `index.html` — page structure and content
+- `style.css` — all styling and responsive design
+- `script.js` — interactions (theme toggle, slider, form validation, animations)
 
-- `profile.jpg` for the circular avatar
-- `resume.pdf` for resume download
-- Icons in `icons/` (html5.svg, css3.svg, javascript.svg, react.svg, bootstrap.svg, git.svg)
-- Project images in `projects/` folder
+## Run Locally
 
-## Development
+You can run this project in any of these ways:
 
-No dependencies required. Edit HTML/CSS/JS directly.
+1. Open `index.html` directly in your browser, or
+2. Use a local static server (recommended), for example:
+
+```bash
+python -m http.server 8000
+```
+
+Then open: `http://localhost:8000`
+
+## Customization
+
+- Update personal details in `index.html`
+- Replace avatar URL with your own image
+- Edit colors and spacing in CSS variables inside `style.css`
+- Update services, testimonials, and contact info as needed
+
+## Deployment
+
+This is a static site, so it can be deployed easily on:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Any static hosting provider
 
 ## License
 
-This project is open source and available on GitHub.
+Use this project freely for personal portfolio customization.
